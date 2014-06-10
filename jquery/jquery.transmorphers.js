@@ -6,7 +6,7 @@
     This works in tandem with CSS that targets transitions on data-transition attr ie:
     
         &[data-transition="show"] {
-            @include transition(opacity 200ms ease-out);
+            transition: opacity 200ms ease-out;
         }
         
     We seperate transitions from styles because they're sticky and work better when
